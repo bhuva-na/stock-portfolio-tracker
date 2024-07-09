@@ -96,7 +96,7 @@ const RealTimeData = () => {
           onClick={handleNavigateToChart}
          
         >
-          View Stock Chart
+          View Stock  Chart
         </Button>{' '}
         <Button
           variant="primary"
@@ -109,7 +109,7 @@ const RealTimeData = () => {
         <Table striped bordered hover size="sm">
           <thead>
             <tr>
-              <th>Timestamp</th>
+              <th>Timestamp </th>
               <th>Open</th>
               <th>High</th>
               <th>Low</th>

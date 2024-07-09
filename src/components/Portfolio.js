@@ -11,7 +11,7 @@ const Portfolio = ({ symbol }) => {
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
   
-  const fetchPortfolio = () => {
+  const fetchPortfolio = ( ) => {
     const token = localStorage.getItem("token");
     axios.get("http://127.0.0.1:5000/portfolio", {
         headers: { Authorization: `Bearer ${token}` },
