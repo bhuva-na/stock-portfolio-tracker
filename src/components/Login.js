@@ -87,6 +87,9 @@ const Login = ( ) => {
                 <Button variant="primary" type="submit">
                   Submit
                 </Button>
+                <Button variant="primary" type="submit">
+                  Not Registered yet?<a href="/">Click Here</a>
+                </Button>
               </Form>
               <p>{message}</p>
             </div>
