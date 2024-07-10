@@ -75,6 +75,7 @@ const AutoComplete_alternative = () => {
   };
 
   const handleSuggestionClick = (symbol) => {
+    
     setKeyword(symbol);
     setSuggestions([]);
   };

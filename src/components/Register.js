@@ -19,7 +19,8 @@ const Register = () => {
       navigate('/')
     }}, [navigate])
   
-  const handleRegister = ( ) => {
+  
+    const handleRegister = ( ) => {
     const formData = new FormData();
     formData.append("name", username);
     formData.append("password", password);

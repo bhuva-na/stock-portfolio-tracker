@@ -8,6 +8,7 @@ import StockChart from "./components/StockChat";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
+  
   const router = createBrowserRouter([
     {
       path: "/",
